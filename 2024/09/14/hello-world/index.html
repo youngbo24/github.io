@@ -13,20 +13,20 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://youngbo24.github.io/github.io/2024/09/18/ctf/"/>
+    <link rel="canonical" href="https://youngbo24.github.io/github.io/2024/09/14/hello-world/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta name="description" content="ctf已知dp，n，e，c求明文mimport gmpy2 as gp  e &#x3D; 65537 n &#x3D;  gp.mpz(24825400785152624117772152669890180298583276617622160961225887737162058006043310153832803030521991869764361981420093067961210988553">
+        <meta name="description" content="Welcome to Hexo ! This is your very first post. Check documentation  for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting  or you can ask me on GitHub . Q">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://youngbo24.github.io/github.io/2024/09/18/ctf/index.html">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="https://youngbo24.github.io/github.io/2024/09/14/hello-world/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="ctf已知dp，n，e，c求明文mimport gmpy2 as gp  e &#x3D; 65537 n &#x3D;  gp.mpz(24825400785152624117772152669890180298583276617622160961225887737162058006043310153832803030521991869764361981420093067961210988553">
+<meta property="og:description" content="Welcome to Hexo ! This is your very first post. Check documentation  for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting  or you can ask me on GitHub . Q">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-09-18T02:50:24.450Z">
-<meta property="article:modified_time" content="2024-04-26T18:05:12.505Z">
+<meta property="article:published_time" content="2024-09-14T02:08:18.972Z">
+<meta property="article:modified_time" content="2024-09-14T02:08:18.972Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
     
@@ -39,6 +39,8 @@
     <!--- Page Info-->
     
     <title>
+        
+            Hello World -
         
         w1lling
     </title>
@@ -309,7 +311,7 @@
         <div class="article-title relative w-full">
             
                 <div class="w-full flex items-center pt-6 justify-start">
-                    <h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3"></h1>
+                    <h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">Hello World</h1>
                 </div>
             
             </div>
@@ -330,15 +332,15 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="desktop">2024-09-18 10:50:24</span>
-        <span class="mobile">2024-09-18 10:50:24</span>
+        <span class="desktop">2024-09-14 10:08:18</span>
+        <span class="mobile">2024-09-14 10:08:18</span>
         <span class="hover-info">创建</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2024-04-27 02:05:12</span>
-            <span class="mobile">2024-04-27 02:05:12</span>
+            <span class="desktop">2024-09-14 10:08:18</span>
+            <span class="mobile">2024-09-14 10:08:18</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -365,43 +367,19 @@
 
 
         <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
-            <h1 id="ctf"><a href="#ctf" class="headerlink" title="ctf"></a>ctf</h1><h3 id="已知dp，n，e，c求明文m"><a href="#已知dp，n，e，c求明文m" class="headerlink" title="已知dp，n，e，c求明文m"></a>已知dp，n，e，c求明文m</h3><p>import gmpy2 as gp</p>
-<p> e &#x3D; 65537<br> n &#x3D;  gp.mpz(248254007851526241177721526698901802985832766176221609612258877371620580060433101538328030305219918697643619814200930679612109885533801335348445023751670478437073055544724280684733298051599167660303645183146161497485358633681492129668802402065797789905550489547645118787266601929429724133167768465309665906113)<br> dp &#x3D;  gp.mpz(905074498052346904643025132879518330691925174573054004621877253318682675055421970943552016695528560364834446303196939207056642927148093290374440210503657)</p>
-<p> c &#x3D;  gp.mpz(140423670976252696807533673586209400575664282100684119784203527124521188996403826597436883766041879067494280957410201958935737360380801845453829293997433414188838725751796261702622028587211560353362847191060306578510511380965162133472698713063592621028959167072781482562673683090590521214218071160287665180751)</p>
-<p> for x in range(1, e):<br>   if(e<em>dp%x&#x3D;&#x3D;1):<br>     p&#x3D;(e</em>dp-1)&#x2F;&#x2F;x+1<br>     if(n%p!&#x3D;0):<br>       continue<br>     q&#x3D;n&#x2F;&#x2F;p<br>     phin&#x3D;(p-1)*(q-1)<br>     d&#x3D;gp.invert(e, phin)<br>     m&#x3D;gp.powmod(c, d, n)<br>     if(len(hex(m)[2:])%2&#x3D;&#x3D;1):<br>       continue<br>     print(‘————–’)<br>     print(m)<br>     print(hex(m)[2:])<br>     print(bytes.fromhex(hex(m)[2:]))</p>
-<h3 id="已知n-dp-dq-c求d和明文m"><a href="#已知n-dp-dq-c求d和明文m" class="headerlink" title="已知n,dp,dq,c求d和明文m"></a>已知n,dp,dq,c求d和明文m</h3><p>import gmpy2 as gp</p>
-<p> p &#x3D; gp.mpz()<br> q &#x3D; gp.mpz()<br> dp &#x3D; gp.mpz()<br> dq &#x3D; gp.mpz()<br> c &#x3D; gp.mpz()</p>
-<p> n &#x3D; p<em>q<br> phin &#x3D; (p-1)</em>(q-1)<br> dd &#x3D; gp.gcd(p-1, q-1)<br> d&#x3D;(dp-dq)&#x2F;&#x2F;dd * gp.invert((q-1)&#x2F;&#x2F;dd, (p-1)&#x2F;&#x2F;dd) * (q-1) +dq<br> print(d)</p>
-<p> m &#x3D; gp.powmod(c, d, n)<br> print(‘——————-‘)<br> print(m)<br> print(hex(m)[2:])</p>
-<h3 id="已知n-e-c求m"><a href="#已知n-e-c求m" class="headerlink" title="已知n,e,c求m"></a>已知n,e,c求m</h3><p>import gmpy2<br> def Decrypt(c,e,p,q):<br>   L&#x3D;(p-1)<em>(q-1)<br>   d&#x3D;gmpy2.invert(e,L)<br>   n&#x3D;p</em>q<br>   m&#x3D;gmpy2.powmod(c,d,n)<br>   flag&#x3D;str(m)<br>   print(“flag{“+flag+”}”)<br> if <strong>name</strong> &#x3D;&#x3D; ‘<strong>main</strong>‘:<br>   p &#x3D;  9648423029010515676590551740010426534945737639235739800643989352039852507298491399561035009163427050370107570733633350911691280297777160200625281665378483<br>   q &#x3D;  11874843837980297032092405848653656852760910154543380907650040190704283358909208578251063047732443992230647903887510065547947313543299303261986053486569407<br>   e &#x3D;  65537<br>   c &#x3D;  83208298995174604174773590298203639360540024871256126892889661345742403314929861939100492666605647316646576486526217457006376842280869728581726746401583705899941768214138742259689334840735633553053887641847651173776251820293087212885670180367406807406765923638973161375817392737747832762751690104423869019034<br>   Decrypt(c,e,p,q)</p>
-<h3 id="已知n-e求秘钥d"><a href="#已知n-e求秘钥d" class="headerlink" title="已知n,e求秘钥d"></a>已知n,e求秘钥d</h3><p>import gmpy2<br> from Crypto.Util import number<br> p &#x3D; 473398607161<br> q &#x3D; 4511491<br> e &#x3D; 17<br> d &#x3D; gmpy2.invert(e,(p-1)*(q-1))<br> print (d)</p>
-<h3 id="已知n-e求秘钥d和key"><a href="#已知n-e求秘钥d和key" class="headerlink" title="已知n,e求秘钥d和key"></a>已知n,e求秘钥d和key</h3><p>import gmpy2<br> import rsa</p>
-<p> p &#x3D; 285960468890451637935629440372639283459<br> q &#x3D; 304008741604601924494328155975272418463<br> e &#x3D; 65537<br> n &#x3D; 86934482296048119190666062003494800588905656017203025617216654058378322103517</p>
-<p> d &#x3D; gmpy2.invert(e,(q-1)*(p-1))<br> print(d)</p>
-<p> d &#x3D; 81176168860169991027846870170527607562179635470395365333547868786951080991441</p>
-<p> key &#x3D; rsa.PrivateKey(n,e,d,p,q)<br> print(key)</p>
-<p> with open(“flag.enc”,”rb”) as f:<br>   print(rsa.decrypt(f.read(),key).decode())</p>
-<p>from gmpy2 import *<br> import libnum</p>
-<p> n&#x3D;22708078815885011462462049064339185898712439277226831073457888403129378547350292420267016551819052430779004755846649044001024141485283286483130702616057274698473611149508798869706347501931583117632710700787228016480127677393649929530416598686027354216422565934459015161927613607902831542857977859612596282353679327773303727004407262197231586324599181983572622404590354084541788062262164510140605868122410388090174420147752408554129789760902300898046273909007852818474030770699647647363015102118956737673941354217692696044969695308506436573142565573487583507037356944848039864382339216266670673567488871508925311154801<br> e1&#x3D;11187289<br> e2&#x3D;9647291<br> s &#x3D; gcdext(e1, e2)<br> s1 &#x3D; s[1]<br> s2 &#x3D; -s[2]</p>
-<p> c1&#x3D;22322035275663237041646893770451933509324701913484303338076210603542612758956262869640822486470121149424485571361007421293675516338822195280313794991136048140918842471219840263536338886250492682739436410013436651161720725855484866690084788721349555662019879081501113222996123305533009325964377798892703161521852805956811219563883312896330156298621674684353919547558127920925706842808914762199011054955816534977675267395009575347820387073483928425066536361482774892370969520740304287456555508933372782327506569010772537497541764311429052216291198932092617792645253901478910801592878203564861118912045464959832566051361<br> c2&#x3D;18702010045187015556548691642394982835669262147230212731309938675226458555210425972429418449273410535387985931036711854265623905066805665751803269106880746769003478900791099590239513925449748814075904017471585572848473556490565450062664706449128415834787961947266259789785962922238701134079720414228414066193071495304612341052987455615930023536823801499269773357186087452747500840640419365011554421183037505653461286732740983702740822671148045619497667184586123657285604061875653909567822328914065337797733444640351518775487649819978262363617265797982843179630888729407238496650987720428708217115257989007867331698397<br> e2&#x3D;9647291<br> c2 &#x3D; invert(c2, n)<br> m &#x3D; (pow(c1,s1,n) * pow(c2 , s2 , n)) % n<br> print (m)<br> print (libnum.n2s(m))</p>
-<h3 id="e-1"><a href="#e-1" class="headerlink" title="e&#x3D;1"></a>e&#x3D;1</h3><p>#&#x2F;usr&#x2F;bin&#x2F;env python3<br> #coding:utf-8<br> import binascii<br> import gmpy2<br> N_hex&#x3D;0x180be86dc898a3c3a710e52b31de460f8f350610bf63e6b2203c08fddad44601d96eb454a34dab7684589bc32b19eb27cffff8c07179e349ddb62898ae896f8c681796052ae1598bd41f35491175c9b60ae2260d0d4ebac05b4b6f2677a7609c2fe6194fe7b63841cec632e3a2f55d0cb09df08eacea34394ad473577dea5131552b0b30efac31c59087bfe603d2b13bed7d14967bfd489157aa01b14b4e1bd08d9b92ec0c319aeb8fedd535c56770aac95247d116d59cae2f99c3b51f43093fd39c10f93830c1ece75ee37e5fcdc5b174052eccadcadeda2f1b3a4a87184041d5c1a6a0b2eeaa3c3a1227bc27e130e67ac397b375ffe7c873e9b1c649812edcd<br> e_hex&#x3D;0x1<br> c_hex&#x3D;0x4963654354467b66616c6c735f61706172745f736f5f656173696c795f616e645f7265617373656d626c65645f736f5f63727564656c797d</p>
-<p> c_hex &#x3D; gmpy2.mpz(c_hex)<br> N_hex &#x3D; gmpy2.mpz(N_hex)</p>
-<p> i &#x3D; 0<br> while i&lt;10:<br>   m_hex &#x3D; hex(c_hex + gmpy2.mpz(hex(i))*N_hex)<br>   print(m_hex[2:])<br>   try:<br>     print(binascii.a2b_hex(m_hex[2:]).decode(“utf8”))<br>   except binascii.Error as e:<br>     print(“位数非偶数，跳过…”)<br>   i +&#x3D; 1</p>
-<h3 id="e-2"><a href="#e-2" class="headerlink" title="e&#x3D;2"></a>e&#x3D;2</h3><p>#!&#x2F;usr&#x2F;bin&#x2F;python<br> # coding&#x3D;utf-8<br> # 适合e&#x3D;2<br> import gmpy<br> import string<br> from Crypto.PublicKey import RSA</p>
-<p> # 读取公钥参数<br> with open(‘.&#x2F;tmp&#x2F;pubkey.pem’, ‘r’) as f:<br>   key &#x3D; RSA.importKey(f)<br>   N &#x3D; key.n<br>   e &#x3D; key.e</p>
-<p> p &#x3D; 275127860351348928173285174381581152299<br> q &#x3D; 319576316814478949870590164193048041239<br> with open(‘.&#x2F;tmp&#x2F;flag.enc’, ‘r’) as f:<br>   cipher &#x3D; f.read().encode(‘hex’)<br>   cipher &#x3D; string.atoi(cipher, base&#x3D;16)<br>   # print cipher</p>
-<p> # 计算yp和yq<br> yp &#x3D; gmpy.invert(p,q)<br> yq &#x3D; gmpy.invert(q,p)</p>
-<p> # 计算mp和mq<br> mp &#x3D; pow(cipher, (p + 1) &#x2F; 4, p)<br> mq &#x3D; pow(cipher, (q + 1) &#x2F; 4, q)</p>
-<p> # 计算a,b,c,d<br> a &#x3D; (yp * p * mq + yq * q * mp) % N<br> b &#x3D; N - int(a)<br> c &#x3D; (yp * p * mq - yq * q * mp) % N<br> d &#x3D; N - int(c)</p>
-<p> for i in (a,b,c,d):<br>   s &#x3D; ‘%x’ % i<br>   if len(s) % 2 !&#x3D; 0:<br>     s &#x3D; ‘0’ + s<br>   print s.decode(‘hex’)</p>
-<h3 id="e-3"><a href="#e-3" class="headerlink" title="e&#x3D;3"></a>e&#x3D;3</h3><p>#!&#x2F;usr&#x2F;bin&#x2F;env python  </p>
-<p>#coding:utf-8    </p>
-<p>import gmpy2 </p>
-<p> from Crypto.PublicKey import RSA    </p>
-<p>public_key &#x3D; “.&#x2F;tmp&#x2F;pubkey.pem”  </p>
-<p>cipher_file &#x3D; “.&#x2F;tmp&#x2F;flag.enc”   </p>
-<p> #读入公钥  with open(public_key, “r”) as f:    key &#x3D; RSA.importKey(f)    n &#x3D; key.n    e &#x3D; key.e    #读入密文  </p>
-<p>with open(cipher_file, “r”) as f:    cipher &#x3D; f.read().encode(“hex”)    cipher &#x3D; int(cipher, 16)    #print(cipher)    #破解密文  def get_flag():    i &#x3D; 0    while True:      if(gmpy2.iroot(cipher+i<em>n, 3)[1] &#x3D;&#x3D; True):        flag_bin &#x3D; int(gmpy2.iroot(cipher+x</em>n, 3)[0])        flag &#x3D; hex(flag_bin)[2:-1].decode(“hex”)        print(flag)         break      i +&#x3D; 1    def get_flag_for():    for x in xrange(118600000, 118720000):      if(gmpy2.iroot(cipher+x<em>n, 3)[1] &#x3D;&#x3D; 1):        flag_bin &#x3D; int(gmpy2.iroot(cipher+x</em>n, 3)[0])        flag &#x3D; hex(flag_bin)[2:-1].decode(“hex”)        print(flag)        break     if <strong>name</strong> &#x3D;&#x3D; “<strong>main</strong>“:    get_flag_for()    #get_flag()</p>
+            <p>Welcome to <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div>
+
+<p>More info: <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 
         </div>
 
@@ -409,18 +387,18 @@
             <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
                 <div class="article-copyright-info-container">
     <ul>
-        <li><strong>标题:</strong> </li>
+        <li><strong>标题:</strong> Hello World</li>
         <li><strong>作者:</strong> w1lling</li>
         <li><strong>创建于
-                :</strong> 2024-09-18 10:50:24</li>
+                :</strong> 2024-09-14 10:08:18</li>
         
             <li>
                 <strong>更新于
-                    :</strong> 2024-04-27 02:05:12
+                    :</strong> 2024-09-14 10:08:18
             </li>
         
         <li>
-            <strong>链接:</strong> https://redefine.ohevan.com/2024/09/18/ctf/
+            <strong>链接:</strong> https://redefine.ohevan.com/2024/09/14/hello-world/
         </li>
         <li>
             <strong>
@@ -496,8 +474,8 @@
             <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">目录</div>
-        <div class="page-title"></div>
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#ctf"><span class="nav-text">ctf</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%B2%E7%9F%A5dp%EF%BC%8Cn%EF%BC%8Ce%EF%BC%8Cc%E6%B1%82%E6%98%8E%E6%96%87m"><span class="nav-text">已知dp，n，e，c求明文m</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%B2%E7%9F%A5n-dp-dq-c%E6%B1%82d%E5%92%8C%E6%98%8E%E6%96%87m"><span class="nav-text">已知n,dp,dq,c求d和明文m</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%B2%E7%9F%A5n-e-c%E6%B1%82m"><span class="nav-text">已知n,e,c求m</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%B2%E7%9F%A5n-e%E6%B1%82%E7%A7%98%E9%92%A5d"><span class="nav-text">已知n,e求秘钥d</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B7%B2%E7%9F%A5n-e%E6%B1%82%E7%A7%98%E9%92%A5d%E5%92%8Ckey"><span class="nav-text">已知n,e求秘钥d和key</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#e-1"><span class="nav-text">e&#x3D;1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#e-2"><span class="nav-text">e&#x3D;2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#e-3"><span class="nav-text">e&#x3D;3</span></a></li></ol></li></ol></li></ol>
+        <div class="page-title">Hello World</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol>
 
     </div>
 </div>
